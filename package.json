@@ -1,7 +1,7 @@
 {
-  "name": "helloworld-sample",
-  "displayName": "helloworld-sample",
-  "description": "HelloWorld example for VS Code",
+  "name": "vscode-ext",
+  "displayName": "My Extension Test 🤷",
+  "description": "A mess of an extension ",
   "version": "0.0.1",
   "publisher": "vscode-samples",
   "repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-sample",
@@ -14,12 +14,12 @@
   "activationEvents": [
     "onCommand:extension.helloWorld"
   ],
-  "main": "./out/extension.js",
+  "main": "./build/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "extension.helloWorld",
-        "title": "Hello World"
+        "title": "Suca World"
       }
     ]
   },
